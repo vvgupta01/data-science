@@ -1,4 +1,4 @@
-All programs created in Jupyter Notebook Python 3.6 XS through IBM Cloud's Watson Studio. 
+All programs were created in Jupyter Notebook Python 3.6 XS through IBM Cloud Watson Studio. 
 <br><br> Links to notebooks are as follows:
 #### Data Analysis
 https://dataplatform.cloud.ibm.com/analytics/notebooks/v2/920afbe5-0087-464d-a434-10967fc70f10/view?access_token=66afdbc2bd06d78844ded6901748f423e7a66535ec40537cded22f9802c40f5a
