@@ -42,8 +42,24 @@ Similarily, the most common venue types between cities are as follows:
 
 | Top Venue Type     | Average Frequency |
 | ------------------ | ----------------- |
-| Coffee Shop        | 0.102895          |
+| Coffee Shop        | 0.1028950         |
 | Cafe               | 0.0776316         |
 | Italian Restaurant | 0.0714474         |
 | Park               | 0.0436842         |
 | Hotel              | 0.0332895         |
+
+The similarity index between Toronto and Manhattan was calculated based on the shared frequency of top venue types located in both cities. 
+
+#### 3.3 Neighborhood Clustering
+Neighborhoods within Toronto and Manhattan were partitioned into k=5 clusters through k-means clustering in order to better visualize the types of venues located in both cities. The investigation summary of each cluster is as follows:
+
+| Cluster | Neighborhoods | Representation | Label      |
+| ------- | ------------- | -------------- | ---------- |
+| 0       | 13            | 16.66667%      | Store      |
+| 1       | 4             | 5.128205%      | Park/Bus   |
+| 2       | 59            | 75.64103%      | Food       |
+| 3       | 1             | 1.282051%      | Garden     |
+| 4       | 1             | 1.282051%      | Playground |
+
+All clusters were represented by the neighborhoods in Toronto; however, only clusters 0 and 2 were represented by the neighborhoods in Manhattan. Even so, cluster 2 was the most common cluster consisting of over 75% of neighborhoods in both cities, while clusters 3 and 4 were only represented by a single neighborhood each. 
+
