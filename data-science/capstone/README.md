@@ -1,5 +1,2 @@
-#### City Comparison
-https://dataplatform.cloud.ibm.com/analytics/notebooks/v2/4ba6e9a9-4692-476b-8f6a-f29aca334fbc/view?access_token=7e97492aaecebdf427b9dff1f24536b4f8f596f8a83fec3bed8fe3dda5fcfa33
-
-#### Neighborhood Segmentation
-https://dataplatform.cloud.ibm.com/analytics/notebooks/v2/c3a1f632-420d-4ba4-a329-2687ceed7b68/view?access_token=deb9fab9ad14ef8b531f6e0cb7af54bf425ef1e1182bce87f4d3be9a924476c2
+#### [City Comparison](https://dataplatform.cloud.ibm.com/analytics/notebooks/v2/4ba6e9a9-4692-476b-8f6a-f29aca334fbc/view?access_token=7e97492aaecebdf427b9dff1f24536b4f8f596f8a83fec3bed8fe3dda5fcfa33)
+#### [Neighborhood Segmentation](https://dataplatform.cloud.ibm.com/analytics/notebooks/v2/c3a1f632-420d-4ba4-a329-2687ceed7b68/view?access_token=deb9fab9ad14ef8b531f6e0cb7af54bf425ef1e1182bce87f4d3be9a924476c2)
