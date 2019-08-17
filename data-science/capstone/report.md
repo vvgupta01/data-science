@@ -21,3 +21,29 @@ Features within the dataset included the top 5 venue types for each neighborhood
 ### III. Exploratory Data Analysis
 #### 3.1 Venue Analysis
 Following venue exploration, a total of 1689 venues were retrieved from Toronto representing 236 unique venue types, while a total of 3317 venues were retrieved from Manhattan representing 337 unique venue types. As the top 5 venue types for each neighborhood were considered, a total of 190 top venue types for Toronto and 200 top venue types for Manhattan were analyzed, representing 81 and 65 unique top venue types respectively.
+
+| City      | Neighborhoods | Venues | Venue Types | Top Venues | Top Venue Types |
+| --------- | ------------- | ------ | ----------- | ---------- | --------------- |
+| Toronto   | 38            | 1689   | 236         | 190        | 81              |
+| Manhattan | 40            | 3317   | 3317        | 200        | 65              |
+
+#### 3.2 Venue Frequency
+Following venue analysis, venues for each city were one-hot encoded and grouped together by venue type before being averaged. The most common venue types were found for each city, as well as the most common venue types between cities. The most common venue types within each city are as follows:
+
+Toronto | Top Venue Type     | Frequency | Manhattan | Top Venue Type     | Frequency |
+------- | ------------------ | --------- | --------- | ------------------ | --------- |
+1       | Coffee Shop        | 0.115789  | 1         | Coffee Shop        | 0.090     |
+2       | Cafe               | 0.105263  | 2         | Italian Restaurant | 0.085     |
+3       | Italian Restaurant | 0.057895  | 3         | Pizza Place        | 0.055     |
+4       | Restaurant         | 0.052632  | 4         | Cafe               | 0.050     |
+5       | Park               | 0.047368  | 5         | Bar                | 0.045     |
+
+Similarily, the most common venue types between cities are as follows:
+
+| Top Venue Type     | Average Frequency |
+| ------------------ | ----------------- |
+| Coffee Shop        | 0.102895          |
+| Cafe               | 0.0776316         |
+| Italian Restaurant | 0.0714474         |
+| Park               | 0.0436842         |
+| Hotel              | 0.0332895         |
