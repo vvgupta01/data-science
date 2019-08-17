@@ -15,6 +15,9 @@ All location data was provided by [Foursquare API](https://foursquare.com/) to r
 Geographical data regarding neighborhoods in Toronto were extracted from a CSV file and processed into a dataframe containing the code, borough, and neighborhood of each postal code. Postal codes with multiple neighborhoods were concatenated into a single entry, while postal codes with an unassigned borough were dropped. However, postal codes with an unassigned neighborhood were assigned the same name as the borough. Coordinate data was extracted from a CSV file and concatenated to the dataframe as latitude and longitude. <br>
 Geographical data regarding neighborhoods in Manhattan were extracted from a JSON file and processed into a dataframe containing the borough, name, latitude, and longitude of each neighborhood. 
 #### 2.3 Feature Extraction
-Following data cleaning, each dataset contained four features: the borough, name, latitude, and longitude of each neighborhood. There were a total of 38 neighborhoods in Toronto and 40 neighborhoods in Manhattan. No other features were necessary in order to retrieve location data.
+Following data cleaning, each dataset contained four columns: the borough, name, latitude, and longitude of each neighborhood. There were a total of 38 neighborhoods in Toronto and 40 neighborhoods in Manhattan. <br>
+Features within the dataset included the top 5 venue types for each neighborhood, which were appended to each dataset and analyzed following venue retrieval. 
 
 ### III. Exploratory Data Analysis
+#### 3.1 Venue Analysis
+Following venue exploration, a total of 1689 venues were retrieved from Toronto representing 236 unique venue types, while a total of 3317 venues were retrieved from Manhattan representing 337 unique venue types. As the top 5 venue types for each neighborhood were considered, a total of 190 top venue types for Toronto and 200 top venue types for Manhattan were analyzed, representing 81 and 65 unique top venue types respectively.
