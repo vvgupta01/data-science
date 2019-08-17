@@ -25,7 +25,7 @@ Following venue exploration, a total of 1689 venues were retrieved from Toronto 
 | City      | Neighborhoods | Venues | Venue Types | Top Venues | Top Venue Types |
 | --------- | ------------- | ------ | ----------- | ---------- | --------------- |
 | Toronto   | 38            | 1689   | 236         | 190        | 81              |
-| Manhattan | 40            | 3317   | 3317        | 200        | 65              |
+| Manhattan | 40            | 3317   | 337         | 200        | 65              |
 
 #### 3.2 Venue Frequency
 Following venue analysis, venues for each city were one-hot encoded and grouped together by venue type before being averaged. The most common venue types were found for each city, as well as the most common venue types between cities. The most common venue types within each city are as follows:
@@ -62,4 +62,11 @@ Neighborhoods within Toronto and Manhattan were partitioned into k=5 clusters th
 | 4       | 1             | 1.282051%      | Playground |
 
 All clusters were represented by the neighborhoods in Toronto; however, only clusters 0 and 2 were represented by the neighborhoods in Manhattan. Even so, cluster 2 was the most common cluster consisting of over 75% of neighborhoods in both cities, while clusters 3 and 4 were only represented by a single neighborhood each. 
+
+### IV. Results
+_Note: Basic results regarding venue analysis can be found in the above section. This section references datasets in the above section to provide a more focused analysis._
+#### 4.1 Venue Analysis Results
+On the surface, both Manhattan and Toronto contain similar amount of neighborhoods, suggesting they are internally similar. However, the he venue analysis suggests Manhattan contains nearly twice as many venues as Toronto (~196%), with Toronto and Manhattan having an average of 44 and 83 venues per neighborhood within a 500 meter radius respectively. Similarily, due to the significant difference in venues, Manhattan contains approximately 43% more unique venue types, suggesting its city is more diverse than Toronto. However, when comparing the top venue types of each city, Toronto has approximately 25% more unique venue types. This suggests that while Manhattan has more diversity in terms of venues available, Toronto has more diversity and consistency in terms of common venues. <br>
+Despite their differences, Toronto and Manhattan also share several venue types, representing a total of 380 venue types with 66% venue type similarity. Further analysis into the frequency of top venue types between both cities reveals that the most common venues are coffee shops, which are represented in over 10% of all neighborhoods. 
+#### 4.2 Cluster Analysis Results
 
