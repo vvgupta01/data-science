@@ -6,8 +6,10 @@ Although from a general overview Manhattan appears similar to Toronto, the stake
 #### 1.3 Interest
 The business is interested in identifying potential cities that are similar to Toronto in order to extend their current business model into new locations with minimum change. Furthermore, finding common venue types between both cities will enable the business to better target these venues, maximizing their potential client base.
 
-### Data Acquisition
-#### Data Sources
-Data required to solve the business problem included both location and geographical data regarding neighborhoods within Toronto and Manhattan. In order to obtain geographical data from Toronto, neighborhoods were grouped based on Canadian postal codes provided by Wikipedia and concatenated with coordinate data provided by Coursera. The following dataset was filtered to include only neighborhoods located within Toronto (East, Central, and West boroughs). <br><br>
-Geographical data from New York was provided by Coursera and filtered to include only neighborhoods located within Manhattan. <br><br>
-All location data was provided by Foursquare API to retrieve the top 100 venues located within a 500 meter radius of each neighborhood in Toronto and Manhattan. The top 5 venue types of each neighborhood were analyzed to derive the top unique venue types of each city in order to calculate similarity.
+### II. Data Acquisition
+#### 2.1 Data Sources
+Data included both location and geographical data regarding neighborhoods within Toronto and Manhattan. In order to obtain geographical data from Toronto, neighborhoods were grouped based on Canadian postal codes provided by [Wikipedia](https://en.wikipedia.org/wiki/List_of_postal_codes_of_Canada:_M) and concatenated with coordinate data provided by [Coursera](https://cocl.us/Geospatial_data). The resultant dataset was filtered to include only neighborhoods located within Toronto (Central, East, West, and Downtown boroughs). <br>
+Geographical data from New York was provided by [Coursera](https://cocl.us/new_york_dataset) and filtered to include only neighborhoods located within Manhattan. <br>
+All location data was provided by [Foursquare API](https://foursquare.com/) to retrieve the top 100 venues located within a 500 meter radius of each neighborhood in Toronto and Manhattan. The top 5 venue types of each neighborhood were analyzed to derive the frequency of top venue types within each city in order to calculate similarity.
+#### 2.2 Data Cleaning
+ 
