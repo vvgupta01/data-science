@@ -2,7 +2,7 @@
 #### 1.1 Background
 A small business currently located in Toronto offers services to other business and venues within the city. The business seeks to expand its operations by opening a new office within America. The primary criteria for selecting a location largely involves its similarity with Toronto based on the types of venues around each neighborhood. Among the potential cities to open a new office in, Manhattan appears to be a strong candidate due to its shared status with Toronto as a diverse, financial capital. 
 #### 1.2 Business Focus
-Although from a general overview Manhattan appears similar to Toronto, the stakeholders within the business would like to perform a deeper analysis regarding the types of venues within both cities to validate their internal similarity. Additionally, if Manhattan is found to be similar to Toronto (>50%), the business would like to find the most common venue type between both cities in order to better focus on those venues.
+Although from a general overview Manhattan appears similar to Toronto, the stakeholders within the business would like to perform a deeper analysis regarding the types of venues within both cities to validate their internal similarity. Additionally, if Manhattan is found to be similar to Toronto, the business would like to find the most common venue types between both cities in order to better focus on accomodating those venues.
 #### 1.3 Business Interest
 The business is interested in identifying potential cities that are similar to Toronto in order to extend their current business model into new locations with minimum change. Furthermore, finding common venue types between both cities will enable the business to better target these venues, maximizing their potential client base.
 
@@ -79,9 +79,16 @@ The similarity between Toronto and Manhattan is further visualized through their
 | 3       | 1.282051%    | Garden     |
 | 4       | 1.282051%    | Playground |
 
-Clusters 1, 3, and 4 were represented only in Toronto, suggesting that while these venue types exist in Manhattan, they were overshadowed by more common venue types represented in clusters 0 and 2. Cluster 2 was most dominant in both cities, representing approximately 61% and 90% of neighborhoods in Toronto and Manhattan respectively. Next, cluster 0 only represented approximately 17% of all neighborhoods followed by cluster 1 representing just over 5% of neighborhoods. Finally, clusters 3 and 4 only represented 1% of neighborhoods each. Clustered maps for Toronto and Manhattan respectively are as follows: <br>
+Clusters 1, 3, and 4 were represented only in Toronto, suggesting that while these venue types exist in Manhattan, they were overshadowed by more common venue types represented in clusters 0 and 2. Cluster 2 was most dominant in both cities, representing approximately 61% and 90% of neighborhoods in Toronto and Manhattan respectively. Next, cluster 0 only represented approximately 17% of all neighborhoods followed by cluster 1 representing just over 5% of neighborhoods. Finally, clusters 3 and 4 only represented 1% of neighborhoods each. Clustered maps for Toronto and Manhattan respectively are as follows: <br><br>
 ![Toronto Cluster Map](res/toronto-cluster-map.jpg "Toronto Cluster Map")
 ![Manhattan Cluster Map](res/manhattan-cluster-map.jpg "Manhattan Cluster Map")
 
 ### V. Discussion
+#### 5.1 Observations
+Observations regarding the results suggest that venue types related to food and dining such as restaurants, bars, etc. were overrepresented in the data due to them overshadowing other venue types. Regardless, it is clear that while the distribution of these venue types may be exaggerated, their significance is not. The top three shared venue types between both cities were related to food and dining, representing nearly 25% of the frequency of top venue types. Moreover, the cluster maps reveal that neighborhoods containing these venue types are most concentrated in Central Toronto and distributed uniformly throughout Manhattan. 
+#### 5.2 Recommendations
+As the similarity between Toronto and Manhattan is greater than 50%, it is recommended to consider Manhattan as a potential location for opening a new office. More importantly, however, is the saturation of food and dining related venues located within both Toronto and Manhattan that represent over 75% of neighborhoods. As such, the business should focus on these venue types in order to maximize potential clients. If the business should focus on only a single venue type, it should be coffee shops/cafes as they are the most common venue type between both cities. 
 
+### VI. Conclusion
+#### 6.1 Overview
+#### 6.2 Future Direction
