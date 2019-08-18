@@ -1,3 +1,4 @@
+_Note: The notebook for this project can be found [here](https://dataplatform.cloud.ibm.com/analytics/notebooks/v2/4ba6e9a9-4692-476b-8f6a-f29aca334fbc/view?access_token=7e97492aaecebdf427b9dff1f24536b4f8f596f8a83fec3bed8fe3dda5fcfa33) (also named city-comparison)_
 ### I. Introduction
 #### 1.1 Background
 A small business currently located in Toronto offers services to other business and venues within the city. The business seeks to expand its operations by opening a new office within America. The primary criteria for selecting a location largely involves its similarity with Toronto based on the types of venues around each neighborhood. Among the potential cities to open a new office in, Manhattan appears to be a strong candidate due to its shared status with Toronto as a diverse, financial capital. 
