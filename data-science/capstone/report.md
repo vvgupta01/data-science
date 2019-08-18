@@ -51,24 +51,37 @@ Similarily, the most common venue types between cities are as follows:
 The similarity index between Toronto and Manhattan was calculated based on the shared frequency of top venue types located in both cities. 
 
 #### 3.3 Neighborhood Clustering
-Neighborhoods within Toronto and Manhattan were partitioned into k=5 clusters through k-means clustering in order to better visualize the types of venues located in both cities. The investigation summary of each cluster is as follows:
+Neighborhoods within Toronto and Manhattan were partitioned into k=5 clusters through k-means clustering in order to better visualize the types of venues located in both cities. The summary of each cluster is as follows:
 
-| Cluster | Neighborhoods | Representation | Label      |
-| ------- | ------------- | -------------- | ---------- |
-| 0       | 13            | 16.66667%      | Store      |
-| 1       | 4             | 5.128205%      | Park/Bus   |
-| 2       | 59            | 75.64103%      | Food       |
-| 3       | 1             | 1.282051%      | Garden     |
-| 4       | 1             | 1.282051%      | Playground |
+| Cluster | Toronto | Manhattan | Total |
+| ------- | ------- | --------- | ----- |
+| 0       | 9       | 4         | 13    |
+| 1       | 4       | 0         | 4     |
+| 2       | 23      | 36        | 59    |
+| 3       | 1       | 0         | 1     |
+| 4       | 1       | 0         | 1     |
 
-All clusters were represented by the neighborhoods in Toronto; however, only clusters 0 and 2 were represented by the neighborhoods in Manhattan. Even so, cluster 2 was the most common cluster consisting of over 75% of neighborhoods in both cities, while clusters 3 and 4 were only represented by a single neighborhood each. 
+All clusters were represented by the neighborhoods in Toronto; however, only clusters 0 and 2 were represented by the neighborhoods in Manhattan. Even so, cluster 2 was the most common cluster in both cities followed by cluster 0, while clusters 3 and 4 were only represented by a single neighborhood each. 
 
 ### IV. Results
-_Note: Basic results regarding venue analysis can be found in the above section. This section references datasets in the above section to provide a more focused analysis._
+_Note: Basic results regarding venue and cluster analysis can be found in the above section. This section references datasets in the above section to provide a more detailed analysis._
 #### 4.1 Venue Analysis Results
 On the surface, both Manhattan and Toronto contain similar amount of neighborhoods, suggesting they are internally similar. However, the he venue analysis suggests Manhattan contains nearly twice as many venues as Toronto (~196%), with Toronto and Manhattan having an average of 44 and 83 venues per neighborhood within a 500 meter radius respectively. Similarily, due to the significant difference in venues, Manhattan contains approximately 43% more unique venue types, suggesting its city is more diverse than Toronto. However, when comparing the top venue types of each city, Toronto has approximately 25% more unique venue types. This suggests that while Manhattan has more diversity in terms of venues available, Toronto has more diversity and consistency in terms of common venues. <br>
 Despite their differences, Toronto and Manhattan also share several venue types, representing a total of 380 venue types with 66% venue type similarity. Further analysis into the frequency of top venue types between both cities reveals that the most common venues are coffee shops, which are represented in over 10% of all neighborhoods. Together, the top five shared venue types represent nearly a third (~33%) of all neighborhoods. A full analysis yields a similarity index of 50.8684%, suggesting that over half the frequency of top venue types in Toronto are shared with Manhattan.
 #### 4.2 Cluster Analysis Results
-Clustered maps for Toronto and Manhattan respectively are as follows:
+The similarity between Toronto and Manhattan is further visualized through their respective cluster maps grouping similar neighborhoods together. A label for each cluster was also manually derived based on the overall category of most venue types within the cluster. The distribution and label for each cluster within both cities is as follows:
+
+| Cluster | Distribution | Label      |
+| ------- | ------------ | -----------|
+| 0       | 16.66667%    | Store      |
+| 1       | 5.128205%    | Park/Bus   |
+| 2       | 75.64103%    | Food       |
+| 3       | 1.282051%    | Garden     |
+| 4       | 1.282051%    | Playground |
+
+Clusters 1, 3, and 4 were represented only in Toronto, suggesting that while these venue types exist in Manhattan, they were overshadowed by more common venue types represented in clusters 0 and 2. Cluster 2 was most dominant in both cities, representing approximately 61% and 90% of neighborhoods in Toronto and Manhattan respectively. Next, cluster 0 only represented approximately 17% of all neighborhoods followed by cluster 1 representing just over 5% of neighborhoods. Finally, clusters 3 and 4 only represented 1% of neighborhoods each. Clustered maps for Toronto and Manhattan respectively are as follows: <br>
 ![Toronto Cluster Map](res/toronto-cluster-map.jpg "Toronto Cluster Map")
 ![Manhattan Cluster Map](res/manhattan-cluster-map.jpg "Manhattan Cluster Map")
+
+### V. Discussion
+
