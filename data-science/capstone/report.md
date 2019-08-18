@@ -70,5 +70,5 @@ On the surface, both Manhattan and Toronto contain similar amount of neighborhoo
 Despite their differences, Toronto and Manhattan also share several venue types, representing a total of 380 venue types with 66% venue type similarity. Further analysis into the frequency of top venue types between both cities reveals that the most common venues are coffee shops, which are represented in over 10% of all neighborhoods. Together, the top five shared venue types represent nearly a third (~33%) of all neighborhoods. A full analysis yields a similarity index of 50.8684%, suggesting that over half the frequency of top venue types in Toronto are shared with Manhattan.
 #### 4.2 Cluster Analysis Results
 Clustered maps for Toronto and Manhattan respectively are as follows:
-![Toronto Cluster Map](/toronto_cluster_map "Toronto Cluster Map")
-![Manhattan Cluster Map](/manhattan_cluster_map "Manhattan Cluster Map")
+![Toronto Cluster Map](res/toronto_cluster_map.jpg "Toronto Cluster Map")
+![Manhattan Cluster Map](res/manhattan_cluster_map.jpg "Manhattan Cluster Map")
