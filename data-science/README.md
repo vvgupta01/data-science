@@ -10,3 +10,4 @@ All programs were created in Jupyter Notebook Python 3.6 XS through IBM Cloud Wa
 #### [Polynomial Regression](https://dataplatform.cloud.ibm.com/analytics/notebooks/v2/b897e417-e364-4b32-89c3-059ee2b27f8e/view?access_token=2b4c2ac9de3ee956e6a1fed230c1f3bff79c4d5b7954e3c548887bdb1d3d1a11)
 #### [SQL Databases](https://dataplatform.cloud.ibm.com/analytics/notebooks/v2/0fbdf1dc-1bfa-4cc3-b093-3a968c8e323f/view?access_token=d8a083af54308b81222ccc9186e81a74c6c84143d732456dee22f3331ed6652c)
 #### [Support Vector Machine](https://dataplatform.cloud.ibm.com/analytics/notebooks/v2/31c29d32-ce25-49b1-a2be-fe6a214317ba/view?access_token=caa0e0ee9ce7535345b81e0a061e2f2d153072107acca6e5bff1be05101977ef)
+#### [Waffle Charts & Word Clouds](https://dataplatform.cloud.ibm.com/analytics/notebooks/v2/8b436d52-1744-4fa3-88a0-03fde4097358/view?access_token=072762d7dfcbcc4bc91f4d333b723c2a4be27fb415be4506e04ecf35d4d5f6b7)
